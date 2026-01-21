@@ -1,3 +1,4 @@
+import {Button} from "@/components/ui/button";
 
 
 export default function Home() {
@@ -10,6 +11,13 @@ export default function Home() {
                      <h1 className='text-center'>
                          the best way to track your job application
                      </h1>
+                     <p className='text-2xl text-center m-10'>
+                         Manage your job search in one place
+                     </p>
+                     <div className='flex justify-center py-20 items-center gap-7 '>
+                         <Button className=''> click me</Button>
+                         <Button> click me</Button>
+                     </div>
                  </div>
 
               </section>
