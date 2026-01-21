@@ -15,11 +15,11 @@ export default function Home() {
                            Capture, organize, and manage your job search in one place.
                        </p>
                        <div className="flex flex-col items-center gap-4">
-                           <Link href="/sign-up">
-                               <Button size="lg" className="h-12 px-8 text-lg font-medium">
-                                   Start for free <ArrowRight className="ml-2" />
-                               </Button>
-                           </Link>
+                           {/*<Link href="/sign-up">*/}
+                           {/*    <Button size="lg" className="h-12 px-8 text-lg font-medium">*/}
+                           {/*        Start for free <ArrowRight className="ml-2" />*/}
+                           {/*    </Button>*/}
+                           {/*</Link>*/}
                            <p className="text-sm text-muted-foreground">
                                Free forever. No credit card required.
                            </p>
@@ -28,7 +28,7 @@ export default function Home() {
                </section>
 
                {/* Hero Images Section with Tabs */}
-               <ImageTabs />
+               {/*<ImageTabs />*/}
 
                {/* Features Section */}
                <section className="border-t bg-white py-24">
@@ -36,7 +36,7 @@ export default function Home() {
                        <div className="grid gap-12 md:grid-cols-3">
                            <div className="flex flex-col">
                                <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
-                                   <Briefcase className="h-6 w-6 text-primary" />
+                                   {/*<Briefcase className="h-6 w-6 text-primary" />*/}
                                </div>
                                <h3 className="mb-3 text-2xl font-semibold text-black">
                                    Organize Applications
@@ -48,7 +48,7 @@ export default function Home() {
                            </div>
                            <div className="flex flex-col">
                                <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
-                                   <TrendingUp className="h-6 w-6 text-primary" />
+                                   {/*<TrendingUp className="h-6 w-6 text-primary" />*/}
                                </div>
                                <h3 className="mb-3 text-2xl font-semibold text-black">
                                    Track Progress
@@ -60,7 +60,7 @@ export default function Home() {
                            </div>
                            <div className="flex flex-col">
                                <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
-                                   <CheckCircle2 className="h-6 w-6 text-primary" />
+                                   {/*<CheckCircle2 className="h-6 w-6 text-primary" />*/}
                                </div>
                                <h3 className="mb-3 text-2xl font-semibold text-black">
                                    Stay Organized
