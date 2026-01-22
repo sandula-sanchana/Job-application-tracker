@@ -14,9 +14,9 @@ export default function Home() {
                      <p className='text-2xl text-center m-10'>
                          Manage your job search in one place
                      </p>
-                     <div className='flex justify-center py-20 items-center gap-7 '>
+                     <div className='flex justify-center py-40 items-center gap-7 '>
                          <Button className=''> click me</Button>
-                         <Button> click me</Button>
+                        <p className='text-sm text-muted-foreground'> try it for free, no credit card required</p>
                      </div>
                  </div>
 
