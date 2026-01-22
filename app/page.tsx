@@ -1,5 +1,6 @@
 import {Button} from "@/components/ui/button";
 import {ArrowRight} from 'lucide-react'
+import Link from "next/dist/client/link";
 
 
 export default function Home() {
@@ -16,7 +17,10 @@ export default function Home() {
                          Manage your job search in one place
                      </p>
                      <div className='flex justify-center py-40 items-center gap-7 '>
-                         <Button className=''> click me <ArrowRight className='ml-2'/></Button>
+                         <Link href='/sign-up'>
+                             <Button className=''> click me <ArrowRight className='ml-2'/></Button>
+                         </Link>
+
                         <p className='text-sm text-muted-foreground'> try it for free, no credit card required</p>
                      </div>
                  </div>
