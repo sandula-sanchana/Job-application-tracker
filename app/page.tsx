@@ -1,4 +1,5 @@
 import {Button} from "@/components/ui/button";
+import {ArrowRight} from 'lucide-react'
 
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
                          Manage your job search in one place
                      </p>
                      <div className='flex justify-center py-40 items-center gap-7 '>
-                         <Button className=''> click me</Button>
+                         <Button className=''> click me <ArrowRight className='ml-2'/></Button>
                         <p className='text-sm text-muted-foreground'> try it for free, no credit card required</p>
                      </div>
                  </div>
